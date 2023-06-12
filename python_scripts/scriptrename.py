@@ -1,6 +1,6 @@
 import os
 
-train_folder = '/Users/arsyaninsa/Documents/Data_Personal/Kuliah/Bangkid/Nyobas Modelling/dataset_many/train'
+train_folder = '/Users/arsyaninsa/Documents/Data_Personal/Kuliah/Bangkid/Nyobas Modelling/dataset_many/test'
 
 # Get a list of subfolders in the train folder
 subfolders = [f for f in os.listdir(train_folder) if os.path.isdir(os.path.join(train_folder, f))]

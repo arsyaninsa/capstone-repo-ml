@@ -3,7 +3,7 @@ import random
 import shutil
 
 train_folder = '/Users/arsyaninsa/Documents/Data_Personal/Kuliah/Bangkid/Nyobas Modelling/dataset_many/train'
-max_images_per_subfolder = 300
+max_images_per_subfolder = 500
 
 # Get a list of subfolders in the train folder
 subfolders = [f for f in os.listdir(train_folder) if os.path.isdir(os.path.join(train_folder, f))]
